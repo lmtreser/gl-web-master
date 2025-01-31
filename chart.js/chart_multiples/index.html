@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Gráficar datos con chart.js</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="libraries/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <div id="encabezado">
+            <div id="logo"></div>
+            <div id="social">
+                <a href="https://www.google.com" class="google">UNO</a>
+                <a href="https://www.facebook.com" class="twitter">DOS</a>
+                <a href="https://www.twitter.com" class="facebook">TRES</a>
+            </div>
+        </div>
+        <div id="nav"></div>
+        <div id="separador"></div>
+        <!-- CONTENEDOR DEL CANVAS, CON POSICIÓN RELATIVA PARA LOS ELEMENTOS DOM -->
+        <div id="izquierda">
+            <canvas id="grafica1"></canvas>
+        </div>
+        <div id="derecha">
+            <canvas id="grafica2"></canvas>
+        </div>
+        <div id="pie"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
